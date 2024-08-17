@@ -14,6 +14,10 @@ body{
   
 }
 
-.text h1{
-  color: white;
+.text{
+  background-color:hsl(228, 56%, 26%);
+  width: 14%;
+  padding: 50px 35px;
+  height: 60px;
+  border-radius: 15px;
 }
