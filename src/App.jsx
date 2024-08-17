@@ -19,10 +19,21 @@ function StarterOne(){
   return(
   <div className="text">
    <h1>
-    Fylo
+    <img src="./images/logo.svg" alt=""/>
    </h1>
+   <Icon/>
    </div>
   )
+};
+
+function Icon(){
+return(
+  <div>
+    <img src="./images/icon-document.svg"/>
+    <img src="./images/icon-folder.svg"/>
+    <img src="./images/icon-upload.svg"/>
+  </div>
+)
 };
 
 // function StarterTwo(){
