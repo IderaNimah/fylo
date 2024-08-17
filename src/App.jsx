@@ -4,9 +4,8 @@ import BG from "./assets/bg-desktop.png";
 
 const App = () => {
   return (
-    <div className="">
+    <div className="starter">
       <img src={BG} alt="background-image" />
-      {/* Your content here */}
     </div>
   );
 };
