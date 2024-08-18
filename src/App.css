@@ -5,6 +5,7 @@
 
 body{
   background-color:hsl(229, 57%, 11%);
+  
 }
 
 .starter img{
@@ -16,8 +17,12 @@ body{
 
 .text{
   background-color:hsl(228, 56%, 26%);
-  width: 14%;
-  padding: 50px 35px;
-  height: 60px;
-  border-radius: 15px;
+  width: 16%;
+  padding: 40px;
+  height: 140px;
+  border-radius: 10px;
+  border-top-right-radius: 80px;
+  position: absolute;
+  top: 310px;
+  left: 350px;
 }

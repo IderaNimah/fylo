@@ -8,7 +8,7 @@ const App = () => {
     <div className="starter">
       <img src={BG} alt="background-image" />
     </div>
-    <StarterOne/>
+    <StarterOne/>n
 
     </>   
   );
