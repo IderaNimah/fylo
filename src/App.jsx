@@ -8,8 +8,8 @@ const App = () => {
     <div className="starter">
       <img src={BG} alt="background-image" />
     </div>
-    <StarterOne/>n
-
+    <StarterOne/>
+    <StarterTwo/>
     </>   
   );
  
@@ -42,9 +42,11 @@ return(
 )
 };
 
-// function StarterTwo(){
-//   return(
-
-//   )
-// };
+function StarterTwo(){
+  return(
+  <div className="second">
+    <h3>You've used 815GB of your storage</h3>
+  </div>
+  )
+};
 export default App;

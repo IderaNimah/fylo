@@ -5,6 +5,7 @@
 
 body{
   background-color:hsl(229, 57%, 11%);
+  color: white;
   
 }
 
@@ -37,5 +38,15 @@ body{
 background-color: hsl(229, 57%, 11%);
 padding: 12px;
 border-radius: 7px;
+}
 
+.second{
+  background-color:hsl(228, 56%, 26%);
+  width: 30%;
+  padding: 40px;
+  height: 140px;
+  border-radius: 10px;
+  position: absolute;
+  top: 310px;
+  left: 800px;
 }
