@@ -26,3 +26,16 @@ body{
   top: 310px;
   left: 350px;
 }
+
+.icons{
+  margin-top: 30px;
+  display: flex;
+  gap: 30px;
+}
+
+.icons img{
+background-color: hsl(229, 57%, 11%);
+padding: 12px;
+border-radius: 7px;
+
+}

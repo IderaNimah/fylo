@@ -28,10 +28,16 @@ function StarterOne(){
 
 function Icon(){
 return(
-  <div>
+  <div className="icons">
+    <>
     <img src="./images/icon-document.svg"/>
+    </>
+    <>
     <img src="./images/icon-folder.svg"/>
+    </>
+    <>
     <img src="./images/icon-upload.svg"/>
+    </>
   </div>
 )
 };
