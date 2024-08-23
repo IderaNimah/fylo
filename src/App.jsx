@@ -45,8 +45,17 @@ return(
 function StarterTwo(){
   return(
   <div className="second">
-    <h3>You've used 815GB of your storage</h3>
+    <h3>You've used <span className="diff">815GB</span> of your storage</h3>
+    <Data/>
   </div>
   )
 };
+
+function Data(){
+  return(
+    <div className="datavisual">
+     <h1>185<span>GB left</span></h1>
+    </div>
+  )
+}
 export default App;

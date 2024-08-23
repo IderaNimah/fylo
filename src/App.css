@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -6,7 +10,9 @@
 body{
   background-color:hsl(229, 57%, 11%);
   color: white;
-  
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 .starter img{
@@ -44,9 +50,27 @@ border-radius: 7px;
   background-color:hsl(228, 56%, 26%);
   width: 30%;
   padding: 40px;
-  height: 140px;
+  height: 80px;
   border-radius: 10px;
   position: absolute;
-  top: 310px;
+  top: 371px;
   left: 800px;
+}
+.second h3{
+  margin-top: -2px;
+  font-weight: 300;
+}
+
+.diff{
+  font-weight: 600;
+}
+
+.datavisual{
+  background-color: white;
+  width: 25%;
+  position: absolute;
+  top: -60px;
+  left: 400px;
+  height: 80px;
+  color: black;
 }
