@@ -92,8 +92,6 @@ border-radius: 7px;
   color:   hsl(229, 7%, 55%);
 }
 
-
-
 .slider-container {
   margin-top: 35px; /* Adds space between the text and slider */
 }
@@ -118,7 +116,7 @@ border-radius: 7px;
   appearance: none;
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background: hsl(6, 100%, 80%);
   cursor: pointer;
   border-radius: 50%;
 }
@@ -126,7 +124,7 @@ border-radius: 7px;
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background: #4CAF50;
+  background:  hsl(335, 100%, 65%);
   cursor: pointer;
   border-radius: 50%;
 }
