@@ -142,14 +142,43 @@ border-radius: 7px;
     background-image: url(./assets/bg-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
-    
+   }
+   .text{
+    margin: 0 auto;
+    width: 60%;
    }
    .starter img{
     display: none;
    }
+   .second{
+    max-width: 100%;
+    width: 50%;
+    margin: -1px 119px;
+    height: 113px;
+   }
    .see{
     display: flex;
     flex-direction: column;
+   }
+   .tt{
+    position: unset;
+   }
+   .ll{
+    display: flex;
+    flex-direction: column;
+   }
+   .datavisual{
+    position: absolute;
+    left: 119px;
+    top: 430px;
+    height: 70px;
+    clip-path: unset;
+    border-bottom-right-radius:7px;
+   }
+   .datavisual h1{
+    left: 0;
+    top: 0;
+
    }
 }
 
