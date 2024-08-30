@@ -8,18 +8,28 @@ const App = () => {
       <div className="starter">
         <img src={BG} alt="background-image" />
       </div>
-      <StarterOne />
-      <StarterTwo />
+      <Res/>
     </>
   );
 };
-
+function Res(){
+  return(
+    <div className="see">
+      <div className='ll'>
+      <StarterOne />
+      <StarterTwo />  
+      </div>
+      
+    </div>
+  )
+}
 
 function StarterOne() {
   return (
     <div className="text">
       <h1>
         <img src="./images/logo.svg" alt="" />
+        
       </h1>
       <Icon />
     </div>
@@ -44,7 +54,9 @@ function StarterTwo() {
   };
 
   return (
-    <div className="second">
+    <div className='tt'>
+
+      <div className="second">
       <h3>
         You’ve used <span className="diff">{sliderValue}GB</span> of your storage
       </h3>
@@ -59,7 +71,9 @@ function StarterTwo() {
         />
       </div>
       <Data sliderValue={sliderValue} />
+    </div>   
     </div>
+ 
   );
 }
 
