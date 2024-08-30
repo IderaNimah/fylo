@@ -1,10 +1,16 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
-
 
 * {
   padding: 0;
   margin: 0;
+ 
+}
+
+.mobile{
+  display: none;
+}
+.for{
+  display: none;
 }
 
 body{
@@ -131,4 +137,16 @@ border-radius: 7px;
 
 .datavisual h1 {
   margin: 0; /* Ensures the heading is aligned properly */
+}
+
+@media (max-width:428px){
+   body{
+    background-image: url(./assets/bg-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+   }
+   .starter img{
+    display: none;
+   }
 }
