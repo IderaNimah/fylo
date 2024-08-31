@@ -104,6 +104,9 @@ border-radius: 7px;
   -webkit-appearance: none;
   width: 100%;
   height: 14px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+  
+
   background: hsl(229, 57%, 11%);
   outline: none;
   opacity: 0.7;
@@ -120,18 +123,23 @@ border-radius: 7px;
   appearance: none;
   width: 25px;
   height: 25px;
-  background: hsl(6, 100%, 80%);
+  background: hsl(4, 76%, 92%);
   cursor: pointer;
   border-radius: 50%;
 }
 
+.slider::-webkit-slider-runnable-track {
+  border-radius: 12px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+}
 .slider::-moz-range-thumb {
   width: 25px;
   height: 25px;
-  background:  hsl(335, 100%, 65%);
+  background: hsl(335, 100%, 65%);
   cursor: pointer;
   border-radius: 50%;
-}
+} 
+
 
 .datavisual h1 {
   margin: 0; /* Ensures the heading is aligned properly */
