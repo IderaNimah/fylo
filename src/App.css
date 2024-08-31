@@ -183,6 +183,11 @@ border-radius: 7px;
    .tiny{
     margin-left: -6px;
    }
+   .deet h3{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 500;
+   }
 }
 
 @media (max-width:390px){
