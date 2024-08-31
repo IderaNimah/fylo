@@ -176,13 +176,19 @@ border-radius: 7px;
     border-bottom-right-radius:7px;
    }
    .datavisual h1{
-    left: 18px;
+    left: 17.5px;
     top: 0;
 
    }
    .tiny{
     margin-left: -6px;
    }
+}
+
+@media (max-width:390px){
+  .second{
+    margin: -1px 142px;
+  }
 }
 
 .see{
@@ -201,6 +207,4 @@ border-radius: 7px;
   align-items: flex-end; 
   gap: 50px;
   width: 100%;
-
-  
 }
