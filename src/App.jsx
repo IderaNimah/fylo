@@ -72,7 +72,7 @@ function StarterTwo() {
       </div>
       <Data sliderValue={sliderValue} />
       <div className='deet'>
-        <h3>0GB<span>100GB</span></h3>
+        <h3>0GB<span>1000GB</span></h3>
       </div>
     </div>   
     </div>
