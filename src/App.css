@@ -169,7 +169,7 @@ border-radius: 7px;
    }
    .datavisual{
     position: absolute;
-    left: 119px;
+    left: 125px;
     top: 445px;
     height: 70px;
     clip-path: unset;
@@ -204,7 +204,7 @@ border-radius: 7px;
   position: relative;
 }
 .datavisual{
-  left: 102px;
+  left: 106px;
 }
 .datavisual h1 {
   left: 11.5px;
@@ -219,7 +219,7 @@ border-radius: 7px;
     width: 46%;
 }
 .datavisual{
-  left: 107px;
+  left: 111px;
   top: 440px;
 }
 .datavisual h1{
