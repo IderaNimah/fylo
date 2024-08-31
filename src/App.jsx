@@ -29,7 +29,6 @@ function StarterOne() {
     <div className="text">
       <h1>
         <img src="./images/logo.svg" alt="" />
-        
       </h1>
       <Icon />
     </div>

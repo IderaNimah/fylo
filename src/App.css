@@ -137,6 +137,13 @@ border-radius: 7px;
   margin: 0; /* Ensures the heading is aligned properly */
 }
 
+.deet h3{
+  margin-top: 6px;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-between;
+}
+
 @media (max-width:428px){
    body{
     background-image: url(./assets/bg-mobile.png);
