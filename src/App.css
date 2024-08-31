@@ -201,6 +201,22 @@ border-radius: 7px;
   position: relative;
 }
 
+@media (max-width:360px){
+  .second {
+    margin: -1px 168px;
+    width: 46%;
+}
+.datavisual{
+  left: 107px;
+  top: 440px;
+}
+.datavisual h1{
+  left: 8.5px;
+}
+.tiny {
+  margin-left: -7px;
+}
+}
 .ll{
   margin: 0;
   position: absolute;
