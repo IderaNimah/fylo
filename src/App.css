@@ -175,9 +175,9 @@ border-radius: 7px;
     display: none;
    }
    .second{
-    max-width: 100%;
-    width: 50%;
-    margin: -1px 119px;
+    max-width: 240px;
+    width: 100%;
+    margin: 0 auto;
     height: 113px;
    }
    .see{
@@ -185,7 +185,7 @@ border-radius: 7px;
     flex-direction: column;
    }
    .tt{
-    position: unset;
+    width: 100%;
    }
    .ll{
     display: flex;
