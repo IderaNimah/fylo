@@ -168,6 +168,55 @@ body {
   justify-content: space-between;
 }
 
+@media (max-width: 500px){
+  body {
+    height: 100vh;
+    background-image: url(./assets/bg-mobile.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  .starter img{
+    display: none;
+  }
+  .text {
+    margin: 0 auto;
+    width: 60%;
+    }
+    .ll{
+      display: flex;
+      flex-direction: column;
+    }
+    .second {
+      max-width: 295px;
+      width: 100%;
+      margin: 0 auto;
+      height: 113px;
+    }
+    .datavisual {
+      position: absolute;
+      left: 152px;
+      width: 33%;
+      top: 178px;
+      height: 72px;
+      clip-path: unset;
+      border-bottom-right-radius: 7px;
+    }
+
+    .datavisual h1 {
+      left: 17.5px;
+      top: 0;
+    }
+    .tiny {
+      margin-left: -6px;
+    }
+    .deet h3 {
+      margin-top: 6px;
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+    }
+}
+
 @media (max-width: 428px) {
   body {
     height: 100vh;
