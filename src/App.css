@@ -225,7 +225,7 @@ body {
 
 @media (max-width: 390px) {
   .second {
-    margin: -1px 142px;
+    margin: 0 auto;
   }
   .deet h3 {
     margin-top: 6px;
@@ -246,7 +246,7 @@ body {
 
 @media (max-width: 360px) {
   .second {
-    margin: -1px 168px;
+    margin: 0 auto;
     width: 46%;
   }
   .datavisual {
