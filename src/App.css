@@ -98,20 +98,20 @@ border-radius: 7px;
 
 .slider-container {
   margin-top: 35px; /* Adds space between the text and slider */
+  position: relative; /* For positioning the progress bar */
 }
 
 .slider {
   -webkit-appearance: none;
   width: 100%;
   height: 14px;
-  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
-  
-
   background: hsl(229, 57%, 11%);
   outline: none;
   opacity: 0.7;
   transition: opacity .2s;
   border-radius: 10px;
+  position: relative; /* For the pseudo-element */
+  z-index: 1; /* Ensure the slider is above the progress */
 }
 
 .slider:hover {
@@ -126,19 +126,27 @@ border-radius: 7px;
   background: hsl(4, 76%, 92%);
   cursor: pointer;
   border-radius: 50%;
+  position: relative;
+  z-index: 2; /* Ensure the thumb is above the progress */
 }
 
 .slider::-webkit-slider-runnable-track {
   border-radius: 12px;
-  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+  background: transparent; /* We use the ::before pseudo-element for the background */
 }
-.slider::-moz-range-thumb {
-  width: 25px;
-  height: 25px;
-  background: hsl(335, 100%, 65%);
-  cursor: pointer;
-  border-radius: 50%;
-} 
+
+.slider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 14px;
+  background: linear-gradient(to right, hsl(6, 100%, 80%) 0%, hsl(335, 100%, 65%) 100%);
+  border-radius: 10px;
+  z-index: 0; /* Ensure the progress is behind the thumb */
+  width: var(--progress-width, 0%);
+  transition: width 0.2s;
+}
 
 
 .datavisual h1 {
@@ -154,6 +162,7 @@ border-radius: 7px;
 
 @media (max-width:428px){
    body{
+    height: 100vh;
     background-image: url(./assets/bg-mobile.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -226,7 +235,6 @@ border-radius: 7px;
   top: 0;
 }
 }
-
 
 @media (max-width:360px){
   .second {

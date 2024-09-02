@@ -45,6 +45,7 @@ function Icon() {
   );
 }
 
+
 function StarterTwo() {
   const [sliderValue, setSliderValue] = useState(815); // Initial value
 
@@ -52,30 +53,36 @@ function StarterTwo() {
     setSliderValue(event.target.value);
   };
 
+  const getBackgroundStyle = () => {
+    const percentage = (sliderValue / 1000) * 100;
+    return {
+      background: `linear-gradient(to right, hsl(6, 100%, 80%) ${percentage}%, hsl(229, 57%, 11%) ${percentage}%)`,
+    };
+  };
+
   return (
     <div className='tt'>
-
       <div className="second">
-      <h3>
-        You’ve used <span className="diff">{sliderValue}GB</span> of your storage
-      </h3>
-      <div className="slider-container">
-        <input
-          type="range"
-          min="0"
-          max="1000" // Max storage value
-          value={sliderValue}
-          onChange={handleSliderChange}
-          className="slider"
-        />
-      </div>
-      <Data sliderValue={sliderValue} />
-      <div className='deet'>
-        <h3>0GB<span>1000GB</span></h3>
-      </div>
-    </div>   
+        <h3>
+          You’ve used <span className="diff">{sliderValue}GB</span> of your storage
+        </h3>
+        <div className="slider-container">
+          <input
+            type="range"
+            min="0"
+            max="1000" // Max storage value
+            value={sliderValue}
+            onChange={handleSliderChange}
+            className="slider"
+            style={getBackgroundStyle()}
+          />
+        </div>
+        <Data sliderValue={sliderValue} />
+        <div className='deet'>
+          <h3>0GB<span>1000GB</span></h3>
+        </div>
+      </div>   
     </div>
- 
   );
 }
 
